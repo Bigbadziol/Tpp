@@ -1,0 +1,17 @@
+name: Tpp
+version: '${project.version}'
+main: badziol.tpp.Tpp
+api-version: 1.19
+commands:
+  rtp:
+    description:  Zarzadzanie lista punktow do teleportacji
+    usage: /<command> lista , dodaj (nazwa) , usun(nazwa), idz (nazwa) , tp - losowa lokacja z listy
+    permission: rtp.rtp
+    permission-message: Nie masz praw do tej komendy
+  xxx:
+    description: Testowe wywolanie komenty z innej klasy , jestem bogiem lub nie
+    usage: /<command>
+    permission: rtp.xxx
+    aliases:
+      - yyy
+      - zzz
